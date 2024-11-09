@@ -82,11 +82,11 @@ body{
 	width: auto;
 }
 
-.container-logo img:hover{
+/*.container-logo img:hover{
 	border: 3px ridge #8948c2;
 	border-radius: 75px;
 	background-color: #cfb5e6;
-}
+}*/
 
 .logo{
 	width: 100%;
