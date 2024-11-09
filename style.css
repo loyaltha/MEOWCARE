@@ -1,0 +1,176 @@
+body{
+	color: #1b1833;
+	text-align: center;
+	font-family: "Playwrite DE Grund", cursive;
+}
+
+#leia{
+	padding: 15px 25px 15px 25px;
+	font-size: 20px;
+	background-color: #6140ae;
+	border-radius: 10px;
+	border: 2px outset black;
+}
+#leia a{
+	text-decoration: none;
+	color: #e2e2e2;
+}
+
+#leia a:hover{
+	font-size: 30px;
+}
+
+#titulo2 a{
+	text-decoration: none;
+	color: #000;
+}
+
+#titulo2 a:hover{
+	color: #b891da;
+}
+
+.info1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.image{
+	display: flex;
+	flex-direction: row;
+	margin-right: 25px;
+	border-radius: 10px;
+	width: auto;
+	height: auto;
+	max-height: 400px;
+	max-width: 500px;
+}
+
+.info1-1{
+	padding-top: 10px;
+}
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	border-radius: 5px;
+	margin: 30px 40px 30px 90px;
+	padding: 10px 20px 0px 20px;
+	max-width: 1300px;
+	background-color: rgba(216, 191, 216);
+}
+
+.menu li a{
+	color:#333; 
+	text-decoration:none; 
+	padding:5px 10px; 
+	display:block;
+}
+
+.menu li a:hover{
+	background:#8948c2;
+	color:#fff;
+	-moz-box-shadow:0 3px 7px 0 #CCC;
+	-webkit-box-shadow:0 3px 7px 0 #ccc;
+	text-shadow:0px 0px 5px #fff;
+	border-radius: 10px;
+}
+
+.container-logo{
+	max-width: 150px;
+	width: auto;
+}
+
+.container-logo img:hover{
+	border: 3px ridge #8948c2;
+	border-radius: 75px;
+	background-color: #cfb5e6;
+}
+
+.logo{
+	width: 100%;
+	align-content: left;
+}
+
+.lista-menu{
+	list-style:none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: 40px;
+	font-size: 120%;
+	font-weight: 800;
+
+}
+
+.lista-menu ul{
+	max-height: 50%;
+}
+
+.info2{
+	display: flex;
+	flex-direction: row;
+	margin-top: 70px;
+	justify-content: center;
+}
+
+.info3{
+	display: flex;
+	flex-direction: row;
+	margin: 70px 0px;
+	justify-content: center;
+}
+
+.box{
+	align-items: center;
+	max-width: 400px;
+	max-height: 550px;
+	margin: 0px 20px 0px 20px;
+	flex-direction: column;
+}
+
+#img-gato{
+	width: auto;
+	height: auto;
+	max-width: 350px;
+	max-height: 250px;
+	border-radius: 10px;
+}
+
+#titulo{
+	font-size: 30px;
+}
+
+#subtitulo{
+	font-size: 20px;
+}
+
+#titulo2{
+	font-size: 25px;
+}
+
+footer {
+	background: #847599;
+	padding: 40px;
+	color: #fff;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+.final{
+	margin: 0 auto;
+	width: 50%;
+}
+
+#copyright {
+	color: #FFFFFF;
+	font-size: 20px;
+	margin: 20px 0 0 0;
+	justify-content: center;
+}
