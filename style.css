@@ -58,7 +58,7 @@ body{
 	margin: 30px 40px 30px 90px;
 	padding: 10px 20px 0px 20px;
 	max-width: 1300px;
-	background-color: rgba(216, 191, 216);
+	background-color: rgba(216, 191, 216, 0.5);
 }
 
 .menu li a{
