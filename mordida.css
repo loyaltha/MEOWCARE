@@ -34,8 +34,7 @@ body {
 .menu li a:hover {
   background: #8948c2;
   color: #fff;
-  -moz-box-shadow: 0 3px 7px 0 #CCC;
-  -webkit-box-shadow: 0 3px 7px 0 #ccc;
+  box-shadow: 0 3px 7px 0 #CCC;
   text-shadow: 0px 0px 5px #fff;
   border-radius: 10px;
 }
