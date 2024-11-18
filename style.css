@@ -343,6 +343,10 @@ iframe{
 		display: block;
 	}
 
+	main{
+		padding: 5px;
+	}
+
 	.info1{
 		display: flex;
 		flex-direction: column;
