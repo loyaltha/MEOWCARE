@@ -1,131 +1,140 @@
-body{
+body {
 	color: #1b1833;
 	text-align: center;
 	font-family: "Playwrite DE Grund", cursive;
 }
 
-#leia{
-	padding: 15px 25px 15px 25px;
-	font-size: 20px;
-	background-color: #6140ae;
-	border-radius: 10px;
-	border: 2px outset black;
-}
-#leia a{
-	text-decoration: none;
-	color: #e2e2e2;
-}
-
-#leia a:hover{
-	font-size: 30px;
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+	box-sizing: border-box;
+	height: 70%;
+    padding: 10px 20px;
+	margin: 0px 0px 20px 0px;
+    background-color: rgba(216, 191, 216);
+	border-radius: 5px;
 }
 
-#titulo2 a{
-	text-decoration: none;
-	color: #000;
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
 }
 
-#titulo2 a:hover{
-	color: #b891da;
+#checkbox {
+    display: none;
 }
 
-.info1{
+.lista-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 115%;
+    font-weight: 800;
+}
+
+.lista-menu li {
+    margin: 0 15px;
+}
+
+.lista-menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.lista-menu li a:hover {
+    background: #8948c2;
+    color: #fff;
+    box-shadow: 0 3px 7px 0 #CCC;
+    border-radius: 10px;
+}
+
+.container-logo {
+    max-width: 150px;
+    width: auto;
+}
+
+.logo {
+    width: 100%;
+    align-content: left;
+}
+
+.lista-menu ul {
+	max-height: 50%;
+}
+
+.info1 {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
 
-.image{
+.image {
 	display: flex;
 	flex-direction: row;
 	margin-right: 25px;
 	border-radius: 10px;
 	width: auto;
 	height: auto;
-	max-height: 400px;
-	max-width: 500px;
+	max-height: 500px;
+	max-width: 400px;
 }
 
-.info1-1{
+.info1-1 {
 	padding-top: 10px;
 }
 
-.menu{
-	display: flex;
-	flex-direction: row;
-	text-align: center;
-	border-radius: 5px;
-	margin: 30px 40px 30px 90px;
-	padding: 10px 20px 0px 20px;
-	max-width: 1300px;
-	background-color: rgba(216, 191, 216, 0.5);
+#titulo {
+	font-size: 30px;
 }
 
-.menu li a{
-	color:#333; 
-	text-decoration:none; 
-	padding:5px 10px; 
-	display:block;
+#subtitulo {
+	font-size: 20px;
 }
 
-.menu li a:hover{
-	background:#8948c2;
-	color:#fff;
-	box-shadow:0 3px 7px 0 #CCC;
-	text-shadow:0px 0px 5px #fff;
+#leia {
+	padding: 15px 25px 15px 25px;
+	font-size: 20px;
+	background-color: #6140ae;
 	border-radius: 10px;
+	border: 2px outset black;
 }
 
-.container-logo{
-	max-width: 150px;
-	width: auto;
+#leia a {
+	text-decoration: none;
+	color: #e2e2e2;
 }
 
-.logo{
-	width: 100%;
-	align-content: left;
+#leia a:hover {
+	font-size: 30px;
 }
 
-.lista-menu{
-	list-style:none;
+.info2 {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	margin-left: 40px;
-	font-size: 120%;
-	font-weight: 800;
-
-}
-
-.lista-menu ul{
-	max-height: 50%;
-}
-
-.info2{
-	display: flex;
-	flex-direction: row;
+	flex-wrap: wrap;
 	margin-top: 70px;
 	justify-content: center;
 }
 
-.info3{
-	display: flex;
-	flex-direction: row;
-	margin: 70px 0px;
-	justify-content: center;
-}
-
-.box{
+.box {
 	align-items: center;
 	max-width: 400px;
 	max-height: 550px;
 	margin: 0px 20px 0px 20px;
 	flex-direction: column;
+	flex-wrap: wrap;
 }
 
-#img-gato{
+#img-gato {
 	width: auto;
 	height: auto;
 	max-width: 350px;
@@ -133,32 +142,37 @@ body{
 	border-radius: 10px;
 }
 
-#titulo{
-	font-size: 30px;
-}
-
-#subtitulo{
-	font-size: 20px;
-}
-
-#titulo2{
+#titulo2 {
 	font-size: 25px;
+}
+
+#titulo2 a {
+	text-decoration: none;
+	color: #000;
+}
+
+#titulo2 a:hover {
+	color: #b891da;
+}
+
+.info3 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 70px 0px;
+	justify-content: center;
+}
+
+.final {
+	margin: 0 auto;
+	width: 50%;
 }
 
 footer {
 	background: #847599;
 	padding: 40px;
 	color: #fff;
-	text-align: center;
-	align-items: center;
 	align-content: center;
-	justify-content: center;
-	justify-items: center;
-}
-
-.final{
-	margin: 0 auto;
-	width: 50%;
 }
 
 #copyright {
@@ -166,4 +180,186 @@ footer {
 	font-size: 20px;
 	margin: 20px 0 0 0;
 	justify-content: center;
+}
+
+
+/*pagina mordida.html*/
+.pagina2 body {
+	background-color: #dcc3ff;
+	font-family: "Playwrite DE Grund", cursive;
+}
+
+.container-principal {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border: outset 3.5px #dcc3ff;
+    box-shadow: 5px 5px 5px 5px #af9adc;
+    background-color: #fff;
+    color: #1b1833;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 10px 80px 80px 80px;
+}
+
+.titulo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.titulo h1 {
+	margin: 0px auto;
+}
+
+.mordida {
+	display: flex;
+	justify-content: center;
+	margin: 80px 0px 50px 0px;
+	border-radius: 5px;
+}
+
+div.mordida img {
+	width: 50%;
+	border-radius: 5px;
+}
+
+.texto-principal {
+	text-align: center;
+}
+
+.lista {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+form {
+    text-align: center;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+form label {
+    display: block;
+    margin-top: 5%;
+    margin-right: 5%;
+    text-align: left;
+}
+
+textarea {
+    margin-top: 5%;
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.formulario label {
+    width: 20%;
+}
+
+.formulario input {
+	margin-left: 5%;
+    width: 75%;
+}
+
+#enviar {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #4B0082;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/*de petiscos.html*/
+.videos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.titulo-video {
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+iframe{
+	max-width: 560px;
+}
+
+/*adaptação para mobile*/
+@media screen and (max-width: 1100px) {
+	body, ul{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	.menu-icon{
+		display: flex;
+		color: #fff;
+		font-size: 200%;
+	}
+
+	.lista-menu{
+		display: none;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		height: 40%;
+		left: 0;
+		top: 12%;
+		background: rgba(216, 191, 216);
+	}
+
+	.lista-menu li{
+		padding-bottom: 30px;
+		border-bottom: 1px solid rgba(75,0,130, 0.16);
+	}
+
+	.checkbox:checked ~ .lista-menu{
+		display: block;
+	}
+
+	.info1{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.info1-1{
+		padding-top: 10px;
+	}
+
+	.box{
+		margin-bottom: 20px;
+	}
+	.info3{
+		margin: 0;
+	}
+
+	#titulo{
+		margin-top: 0;
+	}
 }
