@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="pagina2">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Por que os gatos mordem seus donos?</title>
-	<link rel="icon" href="favicon.png">
+	<link rel="icon" href="logos/favicon.png">
 	<link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="mordida.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
 
@@ -15,15 +15,19 @@
 			<div class="container-logo">
 				<a href="index.html"><img class="logo" src="logos/logo3.png" alt="voltar a pagina principal"></a>
 			</div>
-      <ul class="lista-menu">
-        <li><a href="dicas.html">Dicas e produtos</a></li>
-        <li><a href="comportamento.html">Comportamento</a></li>
-        <li><a href="saude.html">Saúde</a></li>
-        <li><a href="petiscos.html">Petiscos caseiros</a>
-        <li><a href="curiosidades.html">Curiosidades</a></li>
-        <li><a href="racas.html">Raças de gato</a></li>
-        <li><a href="sobre.html">Sobre nós</a></li>
-      </ul>
+			<nav>
+				<input type="checkbox" id="checkbox" class="checkbox">
+				<label for="checkbox" class="menu-icon">&#9776;</label>
+				<ul class="lista-menu">
+					<li><a href="dicas.html">Dicas e produtos</a></li>
+					<li><a href="comportamento.html">Comportamento</a></li>
+					<li><a href="saude.html">Saúde</a></li>
+					<li><a href="petiscos.html">Petiscos caseiros</a></li>
+					<li><a href="curiosidades.html">Curiosidades</a></li>
+					<li><a href="racas.html">Raças de gato</a></li>
+					<li><a href="sobre.html">Sobre nós</a></li>
+				</ul>
+			</nav>
 		</header>
 		<div class="container">
 			<div class="titulo">
@@ -58,13 +62,18 @@
 			</div>
 
 			<form>
-				<h4>Deixe seu comentario ^-^</h4>
-				<label class="formulario">Nome <input type="text" required placeholder="Seu nome completo" style="padding: 10px; width: 50%;"></label>
-				<label class="formulario">Email <input type="email" required placeholder="seuemail@dominio.com" style="padding: 10px; width: 50%;"></label>
-				<textarea cols="70" rows="10" placeholder="Digite seu comentario aqui"></textarea>
-				<input id="enviar" type="submit" value="Enviar comentario">
-			</form>
+                <h4>Deixe seu comentario ^-^</h4>
+                <label class="formulario">Nome <input type="text" required placeholder="Seu nome completo"
+                        style="padding: 10px; width: 50%;"></label>
+                <label class="formulario">Email <input type="email" required placeholder="seuemail@dominio.com"
+                        style="padding: 10px; width: 50%;"></label>
+                <textarea class="formulario" id="comentario" cols="70" rows="10"
+                    placeholder="Digite seu comentario aqui"></textarea>
+                <input id="enviar" type="submit" value="Enviar comentario">
+            </form>
+						
 		</div>
+
 		<footer>
 		<div class="final">
 			<p><b>A gente ama gatos</b> e quer o melhor para eles! Facilitar a vida dos humanos, contar curiosidades sobre os felinos, admirar suas fofuras, trazer novidades e divertir gateiros e gateiras é nossa missão. Produzimos conteúdos que te ajudam a dar bem-estar aos gatinhos, para que eles sejam muito felizes.</p>
